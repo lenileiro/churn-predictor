@@ -1,0 +1,23 @@
+[project]
+name = "churn-predictor"
+version = "0.1.0"
+description = "Customer churn prediction API"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn>=0.34",
+    "pandas>=2.2",
+    "scikit-learn>=1.6",
+    "xgboost>=2.1",
+    "pydantic>=2.10",
+    "joblib>=1.4",
+]
+
+[tool.setuptools]
+py-modules = ["config", "train", "app"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3",
+    "httpx>=0.28",
+]

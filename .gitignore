@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+model.pkl
+feature_config.json
+data.csv
+*.egg-info/
+dist/
+build/
+.pytest_cache/
