@@ -74,7 +74,7 @@ curl -X POST http://127.0.0.1:8000/predict \
 {"churn_probability": 0.8773, "prediction": "Yes"}
 ```
 
-Only `gender`, `tenure`, `MonthlyCharges`, and `Contract` are required. All other fields have sensible defaults. See `/docs` for the full schema with allowed values.
+Only `gender`, `tenure`, `MonthlyCharges`, and `Contract` are required. All other fields have sensible defaults. See the interactive docs at http://127.0.0.1:8000/docs for the full schema with allowed values.
 
 ## Run tests
 
